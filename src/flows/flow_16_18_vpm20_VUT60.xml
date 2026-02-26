@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <flow id="NLe_ExitMN" from="NLe" to="ExitMN" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="NLe_ExitM" from="NLe" to="ExitM" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="NLe_ExitMS" from="NLe" to="ExitMS" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.083333)"/>
+  <flow id="NLe_ExitSL" from="NLe" to="ExitSL" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.166667)"/>
+  <flow id="SRe_ExitMS" from="SRe" to="ExitMS" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.083333)"/>
+  <flow id="SRe_ExitM" from="SRe" to="ExitM" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="SRe_ExitMN" from="SRe" to="ExitMN" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="SRe_ExitNR" from="SRe" to="ExitNR" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.166667)"/>
+  <flow id="EntryMN_ExitSL" from="EntryMN" to="ExitSL" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="EntryM_ExitSL" from="EntryM" to="ExitSL" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="EntryMS_ExitSL" from="EntryMS" to="ExitSL" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.083333)"/>
+  <flow id="EntryMN_ExitNR" from="EntryMN" to="ExitNR" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="EntryM_ExitNR" from="EntryM" to="ExitNR" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.041667)"/>
+  <flow id="EntryMS_ExitNR" from="EntryMS" to="ExitNR" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="exp(0.083333)"/>
+  <flow id="VUT_NLe_ExitSL" from="NLe" to="ExitSL" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="60"/>
+  <flow id="VUT_SRe_ExitNR" from="SRe" to="ExitNR" type="soulEV65" begin="57600" end="64800" departLane="best" departSpeed="max" departPos="base" period="60"/>
+</routes>
