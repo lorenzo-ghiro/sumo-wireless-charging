@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+	<!-- Entry Counters -->
+	<inductionLoop id="NLe_0" lane="NLe_0" pos="2" period="5" file="entries_det.xml" />
+	<inductionLoop id="NLe_1" lane="NLe_1" pos="2" period="5" file="entries_det.xml" />
+
+	<inductionLoop id="EntryMS_0" lane="EntryMS_0" pos="2" period="5" file="entries_det.xml" />
+	<inductionLoop id="EntryMS_1" lane="EntryMS_1" pos="2" period="5" file="entries_det.xml" />
+
+	<inductionLoop id="EntryM_0" lane="EntryM_0" pos="2" period="5" file="entries_det.xml" />
+	<inductionLoop id="EntryMN_0" lane="EntryMN_0" pos="2" period="5" file="entries_det.xml" />
+
+	<inductionLoop id="SRe_0" lane="SRe_0" pos="2" period="5" file="entries_det.xml" />
+	<inductionLoop id="SRe_1" lane="SRe_1" pos="2" period="5" file="entries_det.xml" />
+
+	<!-- Exit Counters -->
+	<inductionLoop id="ExitNR_0" lane="ExitNR_0" pos="-2" period="5" file="exits_det.xml" />
+	<inductionLoop id="ExitNR_1" lane="ExitNR_1" pos="-2" period="5" file="exits_det.xml" />
+
+	<inductionLoop id="ExitMS_0" lane="ExitMS_0" pos="-2" period="5" file="exits_det.xml" />
+	<inductionLoop id="ExitMS_1" lane="ExitMS_1" pos="-2" period="5" file="exits_det.xml" />
+
+	<inductionLoop id="ExitM_0"   lane="ExitM_0" pos="-2" period="5" file="exits_det.xml" />
+	<inductionLoop id="ExitMN_0" lane="ExitMN_0" pos="-2" period="5" file="exits_det.xml" />
+
+	<inductionLoop id="ExitSL_0" lane="ExitSL_0" pos="-2" period="5" file="exits_det.xml" />
+	<inductionLoop id="ExitSL_1" lane="ExitSL_1" pos="-2" period="5" file="exits_det.xml" />
+</additional>
