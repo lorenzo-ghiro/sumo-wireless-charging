@@ -1,0 +1,22 @@
+<additional>
+    <chargingStation id="cs_1_eN2S_4_0" lane="eN2S_4_0" startPos="0.05" endPos="978" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="836612.49"/>
+    <chargingStation id="cs_1_eN2S_4_1" lane="eN2S_4_1" startPos="0.05" endPos="978" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="836612.49"/>
+    <chargingStation id="cs_2_eN2S_5_0" lane="eN2S_5_0" startPos="0.05" endPos="629" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="538066.72"/>
+    <chargingStation id="cs_2_eN2S_5_1" lane="eN2S_5_1" startPos="0.05" endPos="629" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="538066.72"/>
+    <chargingStation id="cs_3_eN2S_8_0" lane="eN2S_8_0" startPos="0.05" endPos="1276" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="1091531.22"/>
+    <chargingStation id="cs_3_eN2S_8_1" lane="eN2S_8_1" startPos="0.05" endPos="1276" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="1091531.22"/>
+    <chargingStation id="cs_4_eS2N_4_0" lane="eS2N_4_0" startPos="0.05" endPos="1263" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="1080410.61"/>
+    <chargingStation id="cs_4_eS2N_4_1" lane="eS2N_4_1" startPos="0.05" endPos="1263" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="1080410.61"/>
+    <chargingStation id="cs_5_eS2N_7_0" lane="eS2N_7_0" startPos="0.05" endPos="628" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="537211.29"/>
+    <chargingStation id="cs_5_eS2N_7_1" lane="eS2N_7_1" startPos="0.05" endPos="628" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="537211.29"/>
+    <chargingStation id="cs_6_eS2N_8_0" lane="eS2N_8_0" startPos="0.05" endPos="977" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="835757.06"/>
+    <chargingStation id="cs_6_eS2N_8_1" lane="eS2N_8_1" startPos="0.05" endPos="977" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="835757.06"/>
+    <chargingStation id="cs_7_postNLe_0" lane="postNLe_0" startPos="0.05" endPos="1012" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="865697.18"/>
+    <chargingStation id="cs_7_postNLe_1" lane="postNLe_1" startPos="0.05" endPos="1012" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="865697.18"/>
+    <chargingStation id="cs_8_postSRe_0" lane="postSRe_0" startPos="0.05" endPos="795" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="680068.43"/>
+    <chargingStation id="cs_8_postSRe_1" lane="postSRe_1" startPos="0.05" endPos="795" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="680068.43"/>
+    <chargingStation id="cs_9_preExitNR_0" lane="preExitNR_0" startPos="0.05" endPos="1009" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="863130.88"/>
+    <chargingStation id="cs_9_preExitNR_1" lane="preExitNR_1" startPos="0.05" endPos="1009" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="863130.88"/>
+    <chargingStation id="cs_10_preExitSL_0" lane="preExitSL_0" startPos="0.05" endPos="785" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="671514.11"/>
+    <chargingStation id="cs_10_preExitSL_1" lane="preExitSL_1" startPos="0.05" endPos="785" power="100000" efficiency="0.95" chargeDelay="0" chargeInTransit="1" totalPower="671514.11"/>
+</additional>
