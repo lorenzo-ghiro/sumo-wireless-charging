@@ -21,6 +21,8 @@ This repository contains the simulation framework and analysis tools for investi
 
 ## Overview
 
+![](./src/usku.gif "simulationGIF")
+
 Dynamic Inductive Charging (DIC) enables electric vehicles to charge wirelessly while driving on equipped road segments. However, when demand exceeds available power capacity, uncoordinated allocation leads to suboptimal resource utilization and user dissatisfaction. 
 
 This framework implements a **Model Predictive Control (MPC)** strategy that:
