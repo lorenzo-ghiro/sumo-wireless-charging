@@ -1,7 +1,3 @@
-<!-- ---
-gitlabrepo: "https://tests.ing.unibs.it/ghiro/sumo_eistanbul/-/blob/main"
---- -->
-
 # Wireless Power Transfer Management Framework with SUMO
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -16,7 +12,7 @@ This repository contains the simulation framework and analysis tools for investi
 - [Overview](#overview)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Defining Flows](#defining-flows)
+- [Defining Flows](#defining-vehicles-flows)
 - [ChargingStations deployment](#chargingstations-deployment)
 - [Running Simulations](#running-simulations)
 - [Analysis](#analysis)
@@ -31,7 +27,7 @@ This framework implements a **Model Predictive Control (MPC)** strategy that:
 - Dynamically allocates power based on vehicle urgency (battery state and remaining travel time)
 - Optimizes satisfaction fairness by prioritizing critical vehicles
 - Enables dynamic power rebalancing across charging infrastructure stripes
-- Provides comprehensive simulation and analysis tools using SUMO traffic simulator
+- Provides simulation and analysis tools using SUMO traffic simulator
 
 ### Key Features
 
@@ -55,31 +51,8 @@ The framework enables system-level analysis of DIC performance under various ope
 ### Prerequisites
 
 - **Python 3.8+** with packages: `numpy`, `pandas`, `cvxpy`, `lxml`, `pyarrow`
-- **Custom SUMO Build**: This project requires a modified version of SUMO with enhanced charging station outputs
-
-### Building SUMO from Custom Branch
-
-This framework requires a custom SUMO build with fixes and enhancements for charging station output:
-
-1. **Clone the custom SUMO branch:**
-   ```bash
-   git clone -b new_fix_cs_output https://github.com/lorenzo-ghiro/sumo.git
-   cd sumo
-   ```
-
-2. **Build SUMO for your platform:**
-   
-   Follow the official SUMO build instructions for your operating system:
-   - [SUMO Developer Documentation](https://sumo.dlr.de/docs/Developer/index.html#build_instructions)
-   - Linux/macOS: typically requires `cmake`, `g++`, `xerces-c`, `fox-toolkit`
-   - Windows: use Visual Studio or MinGW
-
-
-### Installing Python Dependencies
-
-```bash
-pip install numpy pandas cvxpy lxml pyarrow matplotlib seaborn
-```
+- **Custom SUMO Build**: This project requires a modified version of SUMO with enhanced charging station outputs. Check [SUMOvnc2026](https://github.com/lorenzo-ghiro/sumo/tree/vnc2026).
+Follow the [official SUMO build instructions](https://sumo.dlr.de/docs/Developer/index.html#build_instructions) for your operating system.
 
 ## Configuration
 
@@ -123,7 +96,7 @@ More policies can be defined/implemented in [generate_cs.py](/src/generate_cs.py
 At run-time the `runner.py` may re-allocate this `powerbudget` by re-setting the `totalPower` attribute of charging-stations.
 
 Usage example:
-```
+```console
 ➜python generate_cs.py \                                         
   --net net.net.xml \
   --minedgelength 150 \
